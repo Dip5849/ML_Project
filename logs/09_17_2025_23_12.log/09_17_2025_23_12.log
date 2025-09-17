@@ -1,0 +1,20 @@
+2025-09-17 23:12:53,194 - root - INFO - Data ingestion has stated
+2025-09-17 23:12:53,197 - root - INFO - Readed the dataset as csv
+2025-09-17 23:12:53,199 - root - INFO - Made folder for raw data and saved the file
+2025-09-17 23:12:53,199 - root - INFO - Train test split initiated
+2025-09-17 23:12:53,202 - root - INFO - Saved the train and test set to csv
+2025-09-17 23:12:53,218 - root - INFO - Readed the train and test set
+2025-09-17 23:12:53,218 - root - INFO - Obtaining processing object
+2025-09-17 23:12:53,218 - root - INFO - Data transformation initiated
+2025-09-17 23:12:53,218 - root - INFO - Numerical columns scaling completed
+2025-09-17 23:12:53,218 - root - INFO - Categorical columns encoding completed
+2025-09-17 23:12:53,218 - root - INFO - All column transformation completed
+2025-09-17 23:12:53,219 - root - INFO - Splited train data into input and target
+2025-09-17 23:12:53,219 - root - INFO - Splited test data into input and target
+2025-09-17 23:12:53,219 - root - INFO - Appling preprocessing object to training and testing dataframe
+2025-09-17 23:12:53,226 - root - INFO - Finished appling preprocessing object
+2025-09-17 23:12:53,228 - root - INFO - Saved the obj in artifacts as preprocessor.pkl file
+2025-09-17 23:12:53,228 - root - INFO - Started spliting train and test data
+2025-09-17 23:12:55,578 - root - INFO - Got model performance report
+2025-09-17 23:12:55,578 - root - INFO - Got best model for both train and testing dataset
+2025-09-17 23:12:55,579 - root - INFO - Saved the obj in artifacts as model.pkl file

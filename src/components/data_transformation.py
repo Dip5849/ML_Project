@@ -92,11 +92,11 @@ class DataTransformation:
             input_test_arr = preprocessing_obj.transform(input_test_df)
 
             train_arr = np.c_[
-                input_train_df,np.array(target_train_df)
+                input_train_arr,np.array(target_train_df)
             ]
 
             test_arr = np.c_[
-                input_test_df,np.array(target_test_df)
+                input_test_arr,np.array(target_test_df)
             ]
             logging.info('Finished appling preprocessing object')
 
