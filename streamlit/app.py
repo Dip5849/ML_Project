@@ -16,7 +16,7 @@ def load_lottieurl(url: str):
 lottie_book = load_lottieurl("https://assets7.lottiefiles.com/packages/lf20_sSF6EG.json")
 
 # FastAPI backend URL
-API_URL = "http://127.0.0.1:8000/predict"
+API_URL = "http://localhost:8000/predict"
 
 st.set_page_config(page_title="Student Score Prediction", page_icon="📊", layout="centered")
 
