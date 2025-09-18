@@ -10,3 +10,4 @@ streamlit
 fastapi
 uvicorn
 pydantic
+streamlit_lottie

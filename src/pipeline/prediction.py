@@ -25,9 +25,7 @@ class PredictionPipeline:
                 "parental_level_of_education": data.parental_level_of_education,
                 "lunch": data.lunch,
                 "test_preparation_course": data.test_preparation_course,
-                
-                
-            }])
+                }])
             data_arr = preprocessor.transform(input_df)
             pred = model.predict(data_arr)
 

@@ -15,6 +15,7 @@ Requires-Dist: streamlit
 Requires-Dist: fastapi
 Requires-Dist: uvicorn
 Requires-Dist: pydantic
+Requires-Dist: streamlit_lottie
 Dynamic: author
 Dynamic: author-email
 Dynamic: requires-dist

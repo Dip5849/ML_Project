@@ -15,3 +15,4 @@ src/components/data_transformation.py
 src/components/model_trainer.py
 src/pipeline/__init__.py
 src/pipeline/prediction.py
+src/pipeline/schema.py
