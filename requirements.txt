@@ -6,4 +6,9 @@ scikit-learn
 catboost
 xgboost
 dill
+streamlit
+fastapi
+uvicorn
+pydantic
+streamlit_lottie
 -e .
